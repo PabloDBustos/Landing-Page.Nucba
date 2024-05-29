@@ -1,0 +1,40 @@
+body
+{
+    background-color: burlywood
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia, serif;
+}
+
+#main-header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+    padding: 10px;
+}
+
+#main-header picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-header nav {
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+#main-header nav a{
+    text-decoration: none;
+    color:black
+}
