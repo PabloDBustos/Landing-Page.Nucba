@@ -38,3 +38,52 @@ body
     text-decoration: none;
     color:black
 }
+
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    background-color: wheat;
+  }
+
+  .hero-container h1 {
+    padding: 5px;
+    background-color: wheat;
+  }  
+
+.hero-container p {
+    display: flex;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.hero-container picture {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.btn-call {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 3rem;
+    cursor: pointer;
+    width: 20%;
+    margin: 5px;
+}
+
+.btn-learn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 3rem;
+    cursor: pointer;
+    width: 20%;
+    margin: 5px;
+}
